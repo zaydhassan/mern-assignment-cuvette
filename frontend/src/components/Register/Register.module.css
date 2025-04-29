@@ -1,0 +1,11 @@
+.container {
+    width: 300px;
+    margin: 2rem auto;
+  }
+  
+  input, button {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+  }
+  
