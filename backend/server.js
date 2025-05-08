@@ -30,6 +30,10 @@ app.use('/api/chat', chatRoutes);
 app.use('/api/analytics', analyticsRoutes);
 app.use('/api/chatbot', chatbotRoutes);
 
+app.get('/', (req, res) => {
+  res.send('API is running...');
+});
+
 app.use(errorHandler);
 
 const PORT = process.env.PORT || 5000;
